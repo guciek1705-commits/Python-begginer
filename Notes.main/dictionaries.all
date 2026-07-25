@@ -1,0 +1,404 @@
+PYTHON BASICS
+
+1. Data types
+- Variable - stores data
+- String - text
+- Integer - whole numbers
+- Float - decimal numbers, for example prices or distances
+- Boolean - only True or False
+
+2. Functions and operators
+- len() - returns the length of text or a list
+- print() - shows output on the screen
+- input() - gets data from the user
+- str() - converts something to text
+- int() - converts something to a whole number
+- float() - converts something to a decimal number
+- bool() - converts something to True or False
+- dir() - shows available methods and attributes
+- help() - shows information about functions, commands, or modules
+
+3. Conditions
+- if - runs code when a condition is True
+- elif - checks another condition
+- else - runs code when nothing above is True
+
+Logical operators:
+- or - at least one condition must be True
+- and - both conditions must be True
+- not - changes True to False and False to True
+
+4. Strings
+- find() - finds the first position of text inside a string
+- rfind() - finds the last position of text inside a string
+- capitalize() - makes the first letter uppercase
+- upper() - makes all letters uppercase
+- lower() - makes all letters lowercase
+- isdigit() - returns True if all characters are digits
+- isalpha() - returns True if all characters are letters
+- count() - counts how many times something appears in a string
+- replace() - changes one part of text into another
+
+5. Loops
+- while - repeats code while a condition is True
+
+6. Useful extra
+- f-string - lets you put variables inside text
+- result - a variable name often used for storing an answer
+PYTHON COLLECTION METHODS
+
+1. List methods
+- append() - adds an element to the end of the list
+- remove() - removes a specific element
+- sort() - sorts items in alphabetical or numerical order
+- reverse() - reverses the order of items
+- clear() - removes all items from the list
+
+2. Set methods
+- add() - adds an item to the set
+- clear() - removes all items from the set
+- copy() - makes a copy of the set
+- difference() - returns items that are in one set but not the other
+- difference_update() - removes items found in another set
+- discard() - removes an item if it exists
+- intersection() - returns common items from two sets
+- intersection_update() - updates the set with common items only
+- isdisjoint() - returns True if two sets have no items in common
+- issubset() - returns True if all items are in another set
+- issuperset() - returns True if the set contains all items from another set
+- pop() - removes and returns a random item
+- remove() - removes a specific item
+- symmetric_difference() - returns items that are in one set or the other, but not both
+- symmetric_difference_update() - updates the set with unique items from both sets
+- union() - combines items from two sets
+- update() - adds items from another set
+
+3. Dictionary methods
+- copy() - makes a copy of the dictionary
+- fromkeys() - creates a new dictionary with specified keys
+- get() - returns the value of a key
+- items() - returns key-value pairs
+- keys() - returns all keys
+- pop() - removes a key and returns its value
+- popitem() - removes the last inserted item
+- setdefault() - returns the value of a key, or adds it if missing
+- update() - adds or changes items from another dictionary
+- values() - returns all values
+
+4. Useful commands
+- dir() - shows all available methods and attributes
+- help() - shows descriptions of methods and functions
+
+
+
+
+
+PYTHON CHEAT SHEET
+
+1. VARIABLES AND DATA TYPES
+- Variable - stores data
+- String (str) - text
+- Integer (int) - whole numbers
+- Float (float) - decimal numbers
+- Boolean (bool) - True or False
+- None - means no value
+
+Examples:
+name = "Igor"
+age = 20
+price = 9.99
+is_active = True
+
+2. BASIC FUNCTIONS
+- print() - shows output on the screen
+- input() - gets data from the user
+- len() - returns the length of text, list, etc.
+- type() - shows the type of a value
+- str() - converts to text
+- int() - converts to whole number
+- float() - converts to decimal number
+- bool() - converts to True or False
+- dir() - shows available methods and attributes
+- help() - shows information about functions and modules
+
+3. STRING BASICS
+- String - text inside quotes
+
+Examples:
+text = "hello"
+
+Useful string methods:
+- capitalize() - makes the first letter uppercase
+- upper() - makes all letters uppercase
+- lower() - makes all letters lowercase
+- find() - finds the first position of text
+- rfind() - finds the last position of text
+- count() - counts how many times something appears
+- replace() - replaces one part of text with another
+- isdigit() - True if all characters are digits
+- isalpha() - True if all characters are letters
+- split() - splits text into a list
+- strip() - removes spaces from the start and end
+
+4. F-STRINGS
+- f-string - lets you put variables inside text
+
+Example:
+name = "Igor"
+age = 20
+print(f"My name is {name} and I am {age} years old")
+
+5. OPERATORS
+Math operators:
+- + addition
+- - subtraction
+- * multiplication
+- / division
+- // floor division
+- % modulo, gives the remainder
+- ** power
+
+Comparison operators:
+- == equal
+- != not equal
+- > greater than
+- < less than
+- >= greater than or equal
+- <= less than or equal
+
+Logical operators:
+- or - at least one condition must be True
+- and - both conditions must be True
+- not - reverses True and False
+
+6. CONDITIONS
+- if - runs code when a condition is True
+- elif - checks another condition
+- else - runs code when nothing above is True
+
+Example:
+if age >= 18:
+    print("Adult")
+elif age >= 13:
+    print("Teen")
+else:
+    print("Child")
+
+7. LOOPS
+while loop:
+- while - repeats code while a condition is True
+
+Example:
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+for loop:
+- for - repeats over items in a sequence
+
+Example:
+for letter in "hello":
+    print(letter)
+
+Useful loop commands:
+- break - stops the loop
+- continue - skips the current round and goes to the next one
+- pass - does nothing
+
+8. LISTS
+- List - ordered collection that can change
+
+Example:
+fruits = ["apple", "banana", "orange"]
+
+List methods:
+- append() - adds an element to the end of the list
+- remove() - removes a specific element
+- pop() - removes and returns an item
+- insert() - adds an item at a chosen position
+- sort() - sorts items in alphabetical or numerical order
+- reverse() - reverses the order of items
+- clear() - removes all items from the list
+- copy() - makes a copy of the list
+- index() - returns the position of an item
+- count() - counts how many times an item appears
+
+9. TUPLES
+- Tuple - ordered collection that cannot be changed
+
+Example:
+fruits = ("apple", "banana", "orange")
+
+Useful tuple idea:
+- tuples are like lists, but immutable
+
+10. SETS
+- Set - unordered collection of unique items
+
+Example:
+fruits = {"apple", "banana", "orange"}
+
+Set methods:
+- add() - adds an item to the set
+- clear() - removes all items from the set
+- copy() - makes a copy of the set
+- difference() - returns items that are in one set but not the other
+- difference_update() - removes items found in another set
+- discard() - removes an item if it exists
+- intersection() - returns common items from two sets
+- intersection_update() - updates the set with common items only
+- isdisjoint() - True if two sets have no items in common
+- issubset() - True if all items are in another set
+- issuperset() - True if the set contains all items from another set
+- pop() - removes and returns a random item
+- remove() - removes a specific item
+- symmetric_difference() - returns items in one set or the other, but not both
+- symmetric_difference_update() - updates the set with unique items from both sets
+- union() - combines items from two sets
+- update() - adds items from another set
+
+11. DICTIONARIES
+- Dictionary - stores data in key-value pairs
+
+Example:
+person = {
+    "name": "Igor",
+    "age": 20
+}
+
+Dictionary methods:
+- copy() - makes a copy of the dictionary
+- fromkeys() - creates a new dictionary with specified keys
+- get() - returns the value of a key
+- items() - returns key-value pairs
+- keys() - returns all keys
+- pop() - removes a key and returns its value
+- popitem() - removes the last inserted item
+- setdefault() - returns the value of a key, or adds it if missing
+- update() - adds or changes items from another dictionary
+- values() - returns all values
+
+12. FUNCTIONS
+- function - a reusable block of code
+
+Example:
+def greet():
+    print("Hello")
+
+Useful function ideas:
+- def - creates a function
+- return - sends a value back from a function
+- arguments - values passed into a function
+- parameters - variables inside the function
+
+Example:
+def add(a, b):
+    return a + b
+
+13. MODULES
+- module - a file with Python code you can reuse
+- import - brings in a module
+
+Examples:
+import math
+from math import sqrt
+
+Useful idea:
+- modules give you extra functions
+
+14. ERRORS AND EXCEPTIONS
+- syntax error - writing code with wrong grammar
+- exception - an error that happens while the program runs
+
+Example:
+try:
+    number = int(input())
+except:
+    print("Invalid input")
+
+Useful words:
+- try - test code
+- except - handles errors
+- finally - runs no matter what
+
+15. FILES
+- open() - opens a file
+
+Example:
+file = open("test.txt", "r")
+
+Modes:
+- "r" - read
+- "w" - write
+- "a" - append
+- "x" - create
+- "b" - binary
+- "t" - text
+
+Useful methods:
+- read() - reads the whole file
+- readline() - reads one line
+- readlines() - reads all lines into a list
+- write() - writes text to a file
+- close() - closes the file
+
+Better way:
+with open("test.txt", "r") as file:
+    print(file.read())
+
+16. CLASSES / OOP
+- class - a blueprint for creating objects
+- object - an instance of a class
+
+Example:
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def drive(self):
+        print("Driving")
+
+Useful words:
+- self - refers to the current object
+- __init__() - runs when an object is created
+- method - a function inside a class
+- attribute - data stored in an object
+
+17. USEFUL BUILT-IN IDEAS
+- len() - length
+- range() - creates a sequence of numbers
+- sum() - adds numbers
+- max() - biggest value
+- min() - smallest value
+- sorted() - returns a sorted version
+- enumerate() - gives index and value
+- zip() - pairs values together
+
+Examples:
+for i in range(5):
+    print(i)
+
+18. COMMON DEBUGGING TOOLS
+- print() - use it to see what your code is doing
+- type() - check the type of a value
+- dir() - see methods and attributes
+- help() - check how something works
+
+19. IMPORTANT PYTHON IDEAS
+- indentation matters
+- Python uses spaces to show blocks of code
+- names should be clear and readable
+- variables can change if you reassign them
+- comments start with #
+
+Example:
+# this is a comment
+
+20. QUICK REMINDERS
+- True and False must start with capital letters
+- strings use quotes: "text" or 'text'
+- lists use []
+- tuples use ()
+- sets use {}
+- dictionaries use {key: value}
